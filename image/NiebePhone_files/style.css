@@ -1,0 +1,21 @@
+/*css pour le background image au niveau de body*/
+body{
+    background:url(image/fond1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@font-face { font-family: awesome;
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js");
+}
+/*css pages connaissances*/
+
+
+@media all and (max-width:760px) { 
+    
+}
+/*css du slides*/
+.carousel-div{
+    max-height: 420px!important;
+}

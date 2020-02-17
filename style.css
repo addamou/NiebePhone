@@ -1,0 +1,25 @@
+/*css pour le background image au niveau de body*/
+@font-face { font-family: awesome;
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js");
+}
+body{
+    background:url(image/fond1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/*css du slides*/
+.carousel-div{
+   max-height: 420px!important;
+}
+.footer-page {
+    background-color: #000000;
+}
+.boites{
+    background-color: #000000;
+}
+/*media queries*/
+@media all and (max-width:760px) { 
+    
+}
+

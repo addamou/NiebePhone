@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NiebePhone</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-desktop/css/all.min.css">
+</head>
+<body>
+    <!--barre de navigation-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="barrenav">
+            <div class="container">
+                <a class="navbar-brand text-light" href="index.html">NiebePhone</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end Secondary link" id="navbarNavDropdown">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="index.html">ACCEUIL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="propos.html">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="service.html">Nos Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary border-right" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+</br>
+</br>
+    <!--conteneur-->
+    <content class="container-fluid-overlay">
+        <div id="carouselExampleControls" class="carousel slide pt-3 bg-secondary" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner container">
+                <div class="carousel-item active carousel-div">
+                    <img src="image/image1.png" class="d-block w-100 imageCarousel" alt="photo">
+                </div>
+                <div class="carousel-item carousel-div">
+                    <img src="image/image2.png" class="d-block w-100 imageCarousel" alt="photo">
+                </div>
+                <div class="carousel-item carousel-div">
+                    <img src="image/image3.png" class="d-block w-100 imageCarousel" alt="photo">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="row jumbotron jumbotron-fluid py-1 justify-content-center bg-white">
+            <div class="card mx-2 border-0" style="width: 15rem; ">
+                <div class="card-body text-center text-dark">
+                    <i class="fa fa-bug card-title display-4"></i>
+                    <h6 class="card-subtitle mb-2 text-muted">Diagnostic</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet si consectetur la de.</p>
+                </div>
+            </div>
+
+            <div class="card mx-2 border-0" style="width: 15rem;">
+                <div class="card-body text-center text-dark">
+                    <i class="fa fa-magic card-title display-4"></i>
+                    <h6 class="card-subtitle mb-2 text-muted">Réparation</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet si consectetur la de.</p>
+                </div>
+            </div>
+
+            <div class="card mx-2 border-0" style="width: 15rem;">
+                <div class="card-body text-center text-dark">
+                    <i class=" fa fa-shopping-cart card-title display-4"></i>
+                    <h6 class="card-subtitle mb-2 text-muted">Livraison</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet si consectetur la de.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card container-fluid text-center text-light mt-0 py-1 mb-4" style="max-height: 280px; max-width: 380px; background-color: transparent;">
+            <h1 class="display-5 card-title">Votre phone, notre priorité</h1>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing ne 
+                expedita laboriosam error nihil est.</p>
+        </div>
+        <div class="row jumbotron-container bg-white justify-content-around align-content-center px-5 pl-5">
+            <div class="card-img col-sm-12 col-xs-12 col-md-8 col-lg-8 col-xl-8 my-1" style="max-height: 280px; max-width: 360px;">
+                <h5 class="card-title h2">Coming Soon</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quisquam hic est minima voluptates in ipsa tenetur quidem? Praesentium, qui! Saepe.</p>
+                <a href="#" class="btn btn-outline-danger">Learn More</a>
+            </div>
+    
+            <div class="card-bodycol-sm-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 my-1">
+                <div class="card-img">
+                    <img class="card-img" src="image/macbook_PNG17.png" alt="photo" style="max-height: 280px; max-width: 360px;">
+                </div>
+            </div>
+        </div>
+        <div class="card container-fluid text-center text-light mt-0 py-1 mb-4"
+            style="max-height: 280px; max-width: 380px; background-color: transparent;">
+                <h1 class="display-5 card-title">Notre spot video</h1>
+
+                <!-- Button play modal -->
+            <i type="button" class="card-text fa fa-play display-4 bg-0"  data-toggle="modal" data-target="#videomodal"></i>
+                <!-- Modal -->
+            <div class="modal fade border-0" id="videomodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-content modal-dialog bg-secondary">
+                    <span class="modal-header bg-dark text-light">
+                        <i class="fa fa-tv"></i>
+                        <button type="button btn-defaute" class="close modal-header border-0" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" aria-controls="expandable">&times;</span>
+                        </button>
+                    </span>
+                    <iframe width="499" height="240" src="https://www.youtube.com/embed/5HWzmNBnfV4" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-controls="autoplay" controls autoplay ></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class=" row fluid bg-secondary text-light text-center align-content-center">
+            <div class="card container border-0 bg-secondary text-light">
+                <p class="card-title h2 border-0">S'inscrire à notre Newsletter</p>
+                <p class="card-text border-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, nisi, sit dignissimos bla bla.</p>
+                <form class="form-inline card-footer justify-content-center bg-secondary border-0">
+                    <div class="form-group mx-sm-3 mb-2 border-0">
+                        <label for="inputName2" class="sr-only">Name</label>
+                        <input type="Name" class="form-control" id="Name2" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group mx-sm-3 mb-2 border-0">
+                        <label for="inputEmail2" class="sr-only">Email</label>
+                        <input type="Email" class="form-control" id="Email2" placeholder="Enter Email">
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2 ml-1">Envoyer</button>
+                </form>
+            </div>
+        </div>
+         
+    </content>
+    
+    <!--footer-->
+    <footer class=" container-fluid text-center text-light py-2 b-0 mt-0 footer-page">
+            <div class="container">
+                <h4>NiebePhone</h4>
+                <p>Copyright © 2020</p>
+            </div>
+    </footer>
+        
+    <!--script jquery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
